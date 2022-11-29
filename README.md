@@ -46,20 +46,24 @@ To set up this project locally follow these steps
    ```sh
    git clone https://github.com/Jamal2IA/Baum-Welch-implementation.git
    ```
-3. create a new virtual environment ( if you want to work with your main environment skip step 2  and 3 )
+2. create a new virtual environment ( if you want to work with your main environment skip step 2  and 3 )
    ```sh
    conda create -n pviteration
    ```
-4. Add it as a kernel 
+3. Add it as a kernel 
    ```sh
    conda install -c anaconda ipykernel
    ```
    ```sh
    python -m ipykernel install --user --name=pviteration
    ```
-5. Install numpy
+4. Install numpy
    ```sh
    pip install numpy
+   ```
+5. Install pandas
+   ```sh
+   pip install pandas
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
