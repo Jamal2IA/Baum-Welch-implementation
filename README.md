@@ -48,14 +48,14 @@ To set up this project locally follow these steps
    ```
 2. create a new virtual environment ( if you want to work with your main environment skip step 2  and 3 )
    ```sh
-   conda create -n pviteration
+   conda create -n bwelch
    ```
 3. Add it as a kernel 
    ```sh
    conda install -c anaconda ipykernel
    ```
    ```sh
-   python -m ipykernel install --user --name=pviteration
+   python -m ipykernel install --user --name=bwelch
    ```
 4. Install numpy
    ```sh
