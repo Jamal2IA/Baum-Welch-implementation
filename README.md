@@ -48,7 +48,7 @@ To set up this project locally follow these steps
    ```
 2. create a new virtual environment ( if you want to work with your main environment skip step 2  and 3 )
    ```sh
-   conda create -n bwelch
+   conda create -n bwelch python=3.10
    ```
 3. Add it as a kernel 
    ```sh
